@@ -1,0 +1,244 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.italic {
+  font-style: italic;
+}
+small, sub, sup { font-size: .83em }
+sub             { vertical-align: sub }
+sup             { vertical-align: super }
+
+
+table {
+  margin: 0 auto;
+}
+.table_header {
+  text-align: center;
+}
+td {
+  padding: 0 5px;
+}
+th {
+  text-align: left;
+  padding: 5px;
+}
+.inline_image {
+  float: right;
+  width: 150px;
+}
+
+/* the below two classes are used to horizontally center two divs */
+.wrapper {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.col {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+
+
+
+
+#header {
+    width: 100%;
+    top: 0;
+}
+.logo .wrapper {
+  padding-bottom: 0;
+}
+.logo #title {
+  position: relative;
+  width: 405px;
+}
+.logo .col div {
+  position: absolute;
+  top: 50%;
+  margin-top: -160px;
+}
+.logo img {
+    width: 200px;
+}
+.logo h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.logo h1 span:not(:last-child) {
+    margin-right: 10px;
+}
+.logo h1 span.bold {
+    font-weight: bold;
+}
+.logo h1 span.regular {
+    font-weight: lighter;
+}
+.menu a {
+    text-decoration: none;
+}
+.mainmenu {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin-top: -10px;
+}
+.mainmenu li a {
+  display: block;
+}
+.mainmenu > li {
+  display: inline-block;
+}
+.mainmenu > li > a {
+  padding: 20px 15px 21px 15px;
+  font-size: 14px;
+  color: #999999;
+}
+.mainmenu > li:hover > a,
+.mainmenu > li.active > a {
+  color: #485d75;
+}
+.submenu {
+    position: absolute;
+    left: -9999px;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+.menu li:hover > ul {
+    /* makes submenu apper on hover */
+    left: auto;
+}
+.submenu li {
+  height: 0;
+  padding: 0;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.submenu li a {
+  padding: 11px 15px;
+  width: 170px;
+  font-size: 12px;
+  color: #dddddd;
+  font-weight: 400;
+  background: #325780;
+}
+li:hover .submenu li {
+    height: 35px;
+}
+.submenu li:hover > a,
+.submenu li a:hover {
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+.content {
+    display: none;
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.content h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 36px;
+}
+.content h3 {
+    font-size: 18px;
+}
+.content span.alternative {
+    font-size: 18px;
+}
+.content address {
+    padding-left: 40px;
+}
+.content p, .content li, .content address {
+    font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+    letter-spacing: 0.01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 1.5;
+}
+.content p {
+  text-indent: 2em;
+}
+
+
+
+
+
+#content_registration ul {
+  list-style-type: none;
+}
+#content_registration p {
+  text-indent: 0;
+}
+#content_registration p.details {
+  font-size: 18px;
+}
+
+
+
+
+#content_contact h2 {
+  padding-bottom: 4px;
+}
+#content_contact h3 {
+  margin-left: 190px;
+  font-weight: lighter;
+  margin-bottom: 7px;
+}
+#content_contact table {
+  margin-left: 220px;
+}
+#content_contact td:first-child {
+  width: 150px;
+  font-weight: bold;
+}
+#content_contact td:last-child {
+  width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 700px;
+    margin: 20px auto 0;
+    border-top: 1px solid #c5c5c5;
+    color: #5c5c5c;
+    font-weight: lighter;
+}
+footer h3 {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+footer .row:not(:last-child) {
+    margin-bottom: 5px;
+}
+footer a {
+    padding: 12px;
+}
+footer a img {
+    width: 40px;
+}
