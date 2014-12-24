@@ -40,6 +40,10 @@ th {
 }
 
 
+a.unclickable {
+  cursor: default;
+}
+
 
 
 
@@ -183,6 +187,9 @@ li:hover .submenu li {
 }
 #content_registration p {
   text-indent: 0;
+}
+#content_registration div.details {
+  margin-top: 75px;
 }
 #content_registration p.details {
   font-size: 18px;
