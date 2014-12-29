@@ -184,6 +184,12 @@ li:hover .submenu li {
 .content.results h3 {
   font-size: 28px;
 }
+.content.results h4 {
+  margin: 0;
+}
+.content.results ul {
+  margin: 10px 0;
+}
 .content.results li {
   display: inline;
   padding-right: 17px;
