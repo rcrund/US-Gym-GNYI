@@ -181,6 +181,19 @@ li:hover .submenu li {
 
 
 
+.content.results h3 {
+  font-size: 28px;
+}
+.content.results li {
+  display: inline;
+  padding-right: 17px;
+  white-space: nowrap;
+}
+
+
+
+
+
 
 
 #content_registration ul {
