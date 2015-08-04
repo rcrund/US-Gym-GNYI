@@ -181,6 +181,26 @@ li:hover .submenu li {
 
 
 
+
+
+
+
+.banner {
+  margin: 50px 0;
+}
+.banner img {
+  height: 150px;
+  margin-right: 30px;
+}
+.banner img:last-child {
+  margin-right: 0px;
+}
+
+
+
+
+
+
 .content.results h3 {
   font-size: 28px;
 }
@@ -195,9 +215,6 @@ li:hover .submenu li {
   padding-right: 17px;
   white-space: nowrap;
 }
-
-
-
 
 
 
