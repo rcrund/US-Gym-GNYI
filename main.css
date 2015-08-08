@@ -164,7 +164,7 @@ li:hover .submenu li {
 .content span.alternative {
     font-size: 18px;
 }
-.content address {
+.content address, .content .info {
     padding-left: 40px;
 }
 .content p, .content li, .content address {
