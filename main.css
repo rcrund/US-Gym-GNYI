@@ -291,11 +291,18 @@ li:hover .submenu li {
 
 
 footer {
-    width: 700px;
-    margin: 20px auto 0;
-    border-top: 1px solid #c5c5c5;
-    color: #5c5c5c;
-    font-weight: lighter;
+  width: 700px;
+  margin: 20px auto 0;
+  border-top: 1px solid #c5c5c5;
+  color: #5c5c5c;
+  font-weight: lighter;
+}
+.sponsors td {
+  text-align: center;
+  width: 200px !important;  /* TODO: get rid of important */;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #999999;
 }
 footer img {
   width: 200px;
